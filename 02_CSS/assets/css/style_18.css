@@ -1,0 +1,19 @@
+div {
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-color: red;
+    transition-property: width , background-color , border-radius;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+
+
+}
+
+div:hover {
+    width: 400px;
+    background-color: gold;
+    border-radius: 100%;
+    /*transform: rotate(10deg);*/
+    transition-delay: 2s;
+
+}

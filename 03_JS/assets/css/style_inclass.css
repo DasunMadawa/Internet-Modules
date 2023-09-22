@@ -1,0 +1,47 @@
+section {
+    width: 100%;
+    height: 50vh;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-around;
+
+    /*justify-content: space-between;*/
+
+}
+
+section > div {
+    width: 25vh;
+    height: 25vh;
+    box-shadow: 5px 5px 25px purple;
+}
+
+section > div:first-child {
+    align-self: self-start;
+    background-color: lightpink;
+
+}
+section > div:nth-child(2) {
+    align-self: center;
+    background-color: pink;
+
+}
+section > div:nth-child(3) {
+    align-self: self-end;
+    background-color: lightpink;
+
+}
+section > div:nth-child(4) {
+    align-self: center;
+    background-color: #c06876;
+
+}
+section > div:nth-child(5) {
+    align-self: self-start;
+    background-color: #fa5b7b;
+
+}
+section > div:nth-child(6) {
+    align-self: center;
+    background-color: #4f3738;
+
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form>
+        <input type="button" value="Click !">
+        <hr>
+        <input type="checkbox" >
+        <input type="checkbox" checked>
+        <hr>
+        <input type="radio" >
+        <input type="radio" checked>
+        <hr>
+        <input type="color">
+        <input type="color" value="#F31559">
+        <hr>
+        <input type="date">
+        <input type="date" value="2023-07-20">
+        <input type="date" value="2023-07-20" min="2023-07-10" max="2023-07-25">
+        <hr>
+        <input type="datetime-local">
+        <input type="datetime-local" value="2023-07-20T19:30">
+        <input type="datetime-local" value="2023-07-20T19:30" min="2023-07-10T12:00" max="2023-07-25T12:00">
+        <hr>
+        <input type="text">
+        <input type="text" value="hi">
+        <input type="text" placeholder="Enter Text">
+        <hr>
+        <input type="email">
+        <input type="email" value="abc@gmail.com">
+        <input type="email" placeholder="Enter Your Email">
+        <hr>
+        <input type="url" value="https://ijse.lk">
+        <hr>
+        <input type="tel">
+        <input type="tel" value="+94785946893">
+        <input type="tel" placeholder="Enter Phone Number">
+        <input type="tel" pattern="[0-9]{3}-[0-9]{7}">
+        <hr>
+        <input type="password">
+        <input type="password" value="abc">
+        <input type="password" placeholder="Enter Your Password">
+        <hr>
+        <input type="number">
+        <input type="number" value="100">
+        <input type="number" value="98.8" min="50" max="100">
+        <input type="number" PLACEHOLDER="Enter Numbers">
+        <hr>
+        <input type="search">
+        <hr>
+        <input type="time">
+        <input type="time" value="18:00">
+        <input type="time" min="01:00" max="20:00">
+        <hr>
+        <input type="week">
+        <input type="week" value="2023-W04">
+        <hr>
+        <input type="month">
+        <input type="month" value="2023-01">
+        <hr>
+        <input type="range">
+        <input type="range" value="100">
+        <hr>
+        <input type="file">
+        <hr>
+        <input type="image" src="../assets/imges/medium.jpg">
+        <hr>
+        <input type="submit" value="Submit">
+        <hr>
+        <input type="reset" value="Reset">
+        <hr>
+        <input type="hidden" value="hidden">
+        <hr>
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label for="id">ID</label>
+        <input type="text" id="id">
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <form>
+        <label for="address">Address</label>
+        <br>
+        <textarea name="" id="address" cols="30" rows="10"></textarea>
+        <br>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <form>
+        <label for="tech">Address</label>
+        <br>
+        <select id="tech">
+            <option value="">Choose</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="perl">Perl</option>
+            <option value="go">Go</option>
+        </select>
+        <br>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Choose Technologies</legend>
+
+            <input type="radio" id="java">
+            <label for="java">Java</label>
+
+            <input type="radio" id="python">
+            <label for="python">Python</label>
+
+            <input type="radio" id="go">
+            <label for="go">Go</label>
+        </fieldset>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <form>
+        <label for="country-input">Country</label>
+        <br>
+        <input type="text" id="country-input" list="country">
+
+        <datalist id="country">
+            <option value="srilanka">Sri Lanka</option>
+            <option value="japan">Japan</option>
+            <option value="china">China</option>
+            <option value="america">America</option>
+        </datalist>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <label for="country-input">Country</label>
+        <br>
+        <input type="range" id="a" name="a" value="10"> +
+        <input type="number" id="b" name="b" value="20"> =
+        <output name="result">30</output>
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <label for="tech2">Technology</label>
+        <select id="tech2">
+            <optgroup label="Programming Languages">
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="c#">C#</option>
+            </optgroup>
+            <optgroup label="DevOps">
+                <option value="aws">AWS</option>
+                <option value="azure">Azure</option>
+            </optgroup>
+        </select>
+
+    </form>
+
+
+</body>
+</html>

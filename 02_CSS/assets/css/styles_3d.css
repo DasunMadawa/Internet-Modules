@@ -1,0 +1,146 @@
+/*.scene {*/
+/*    position: relative;*/
+/*    left: 500px;*/
+/*    top: 250px;*/
+/*    transform-style: preserve-3d;*/
+/*}*/
+/*body {*/
+/*    perspective: 100px;*/
+/*    perspective-origin: 50%;*/
+/*}*/
+
+/*.floor {*/
+/*    background-image: url("/assets/img/emoji.png");*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    transform: rotateX(90deg);*/
+/*}*/
+
+/*.cube {*/
+/*    position: absolute;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: lightblue;*/
+
+/*}*/
+
+body {
+    background-color: black;
+}
+
+.card, .card-content {
+    perspective: 1000px;
+    position: relative;
+    width: 452px;
+    height: 620px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.6s linear;
+    /*background-color: #1C1C1C;*/
+
+}
+
+.card:hover .card-content{
+    transform: rotateY(180deg);
+}
+
+.card-content {
+    transform-style: preserve-3d;
+}
+
+.card-front , .card-back {
+    position: absolute;
+    width: 452px;
+    height: 620px;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+
+}
+
+.card-front {
+    transform: translateZ(1px);
+    background-color: #1C1C1C;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    background-color: #E85D04;
+
+}
+
+.card-img {
+    width: 452px;
+    height: 240px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-title , .card-subtitle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+
+.card-title {
+    top: 281px;
+    font-size: 32px;
+}
+
+
+.card-subtitle {
+    top: 399px;
+    color: white;
+    font-size: 16px;
+}
+
+.card-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 35px;
+    width: 133px;
+    height: 126px;
+
+}
+
+.card-title-back {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 220px;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.card-btn-back {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 340px;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sec {
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+
+

@@ -1,0 +1,28 @@
+.outer-div {
+    background-color: lightgreen;
+    margin: 100px;
+    width: 800px;
+    border : 5px solid black;
+    padding: 20px;
+    box-shadow: 10px 50px 5px 5px blue;
+}
+
+.inner-div {
+    padding-left: 300px;
+    margin: 30px;
+
+}
+
+.headr {
+    padding-left: 330px ;
+
+}
+
+/*
+.outer-div > h1 {
+    background-color: lightgreen;
+    margin: 100px;
+    width: 800px;
+    border : 5px solid black;
+    padding: 20px;
+}*/

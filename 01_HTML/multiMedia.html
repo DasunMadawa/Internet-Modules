@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi Media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+</head>
+<body>
+
+<!--Adding Images-->
+
+<img src="../assets/imges/large.jpg" alt="Iphone" title="phone" height="300" width="100">
+
+<!--Adding responsive Images-->
+
+<img srcset="../assets/imges/small.jpg 480w, ../assets/imges/medium.jpg 800w"
+     sizes="(max-width: 1000px) 800px, (max-width: 500px) 480px"
+>
+
+<picture>
+    <source media="(min-width: 1000px)" srcset="../assets/imges/large.jpg">
+    <source media="(min-width: 800px)" srcset="../assets/imges/medium.jpg">
+    <img src="../assets/imges/small.jpg" title="iphone 14" alt="iphone">
+
+</picture>
+
+<!--Adding videos-->
+
+<video
+        poster="../assets/imges/car-post.png"
+        controls
+>
+    <source src="../assets/videos/car.mp4" type="video/mp4">
+    <source src="../assets/videos/car.webm" type="video/webm">
+    <track label="English" kind="subtitles" src="../assets/videos/subtitles/sample.vtt" srclang="en" default>
+    <track label="Arabic" kind="subtitles" src="../assets/videos/subtitles/arabic.vtt" srclang="ar">
+    <p>
+        visit www.Ijse.lk to watch this video
+    </p>
+</video>
+
+<audio src="../assets/audios/audio_file1.mp3" controls>
+
+</audio>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+section {
+    width: 50vw;
+    aspect-ratio: 1/1;
+    background-color: blue;
+    border: 5px solid black;
+    position: relative;
+
+}
+
+section > div:first-child {
+    width: 10vw;
+    aspect-ratio: 1/1;
+    background-color: red;
+    position: absolute;
+
+}
+section > div:nth-child(2) {
+    width: 10vw;
+    aspect-ratio: 1/1;
+    background-color: red;
+    position: absolute;
+    right: 0;
+
+}
+section > div:nth-child(3) {
+    width: 10vw;
+    aspect-ratio: 1/1;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+section > div:nth-child(4) {
+    width: 10vw;
+    aspect-ratio: 1/1;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+section > div:nth-child(5) {
+    width: 10vw;
+    aspect-ratio: 1/1;
+    background-color: red;
+    position: absolute;
+    border-radius: 100% 100% 100% 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}

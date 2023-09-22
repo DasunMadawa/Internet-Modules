@@ -1,0 +1,25 @@
+div {
+    width: 200px;
+    aspect-ratio: 1/1;
+    /*background-color: blue;*/
+    animation-name: my-anime;
+    animation-duration: 3s;
+    /*animation-direction: reverse;*/
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+    /*animation-delay: 2s;*/
+
+}
+
+@keyframes my-anime {
+    0% {
+        margin-left: 0px;
+        background-color: blue;
+    }
+
+    100% {
+        margin-left: 300px;
+        background-color: red;
+    }
+}

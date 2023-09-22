@@ -1,0 +1,61 @@
+/*  rotate  */
+
+/*div {*/
+/*    height: 100px;*/
+/*    aspect-ratio: 1/1;*/
+/*    background-color: red;*/
+/*    transform: rotate(20deg);*/
+
+/*}*/
+
+/* scale */
+
+/*div {*/
+/*    height: 100px;*/
+/*    aspect-ratio: 1/1;*/
+/*    background-color: red;*/
+/*    transform: scale(0.5);*/
+/*    !*transform: scale(x , y);*!*/
+/*    transform: scale(1 , 2);*/
+
+/*}*/
+
+/* skew */
+
+/*div {*/
+/*    height: 200px;*/
+/*    aspect-ratio: 1/1;*/
+/*    background-image: url("/assets/img/emoji.png");*/
+/*    background-size: cover;*/
+/*    transform: skew(10deg , 10deg); !*applies x and y both*!*/
+/*    */
+/*    !*transform: skewX(10deg);*!*/
+/*    !*transform: skewY(10deg);*!*/
+
+/*}*/
+
+
+/* translate */
+
+/*div {*/
+/*    height: 200px;*/
+/*    aspect-ratio: 1/1;*/
+/*    background-image: url("/assets/img/emoji.png");*/
+/*    background-size: cover;*/
+/*    transform: translate(10px , 10px); !* x and y both applies *!*/
+
+/*}*/
+
+
+/* transform origin */
+
+div {
+    height: 200px;
+    aspect-ratio: 1/1;
+    background-image: url("/assets/img/emoji.png");
+    background-size: cover;
+    transform: rotate(20deg);
+    transform-origin: bottom right;
+
+}
+

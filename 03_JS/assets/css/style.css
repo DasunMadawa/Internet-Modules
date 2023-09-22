@@ -1,0 +1,178 @@
+/*h1 {*/
+/*    color: crimson;*/
+/*}*/
+
+/*p {*/
+/*    background-color: lightslategray;*/
+/*}*/
+
+/*#subTopic1 {
+    background-color: lightslategray;
+}
+
+#subTopic2 {
+    background-color: lightslategray;
+}
+
+.paragraph {
+    background-color: blanchedalmond;
+}
+
+.paragraphfont {
+    font-weight: bold;
+}
+
+*{
+    color: darkblue;
+}*/
+
+
+
+/*////////////////////////////////////////// attribute selectors ////////////////////////////////////////*/
+
+
+/*
+[name] {
+    color: crimson;
+}
+
+[name = "js"] {
+    font-weight: bold;
+}
+
+[href] {
+    background-color: antiquewhite;
+}
+
+[href ^= "https"] {
+    background-color: lightgreen;
+}
+
+[href $= "lk"] {
+    background-color: lightcoral;
+}
+
+[href *= "https"] {
+    background-color: olive;
+}
+
+[href *= "https"] {
+    background-color: olive;
+}
+
+[href ~= "students"] {
+    background-color: olive;
+}
+
+li[name = "google"] {
+    background-color: olive;
+}
+
+.test[name]{
+    background-color: blanchedalmond;
+}*/
+
+
+/*/////////////////////////////pseudeo///////////////////////////////*/
+
+
+
+/*h1:hover {
+    color: red;
+    cursor: pointer;
+}
+
+h1:active {
+    color: darkblue;
+}
+
+a:visited {
+    color: darkorange;
+}
+
+a:link {
+    color: red;
+}
+
+input:focus {
+background-color: blue;
+}
+
+li:first-child {
+    color: blue;
+}
+
+li:last-child {
+    color: darkorange;
+}
+
+li:nth-child(3) {
+    color: darkorange;
+}
+
+h4:nth-child(3) {
+    color: darkorange;
+}
+
+li:only-child {
+
+}
+
+h1::before {
+    content: "😂😘😘😘";
+}
+
+h3::first-letter {
+    color: blue;
+}
+
+input::file-selector-button{
+    background-color: red;
+}
+
+::selection {
+    color: white;
+    background-color: crimson;
+}
+
+::marker {
+    content: "🙂";
+}
+
+section>h4:last-child {
+    color: crimson;
+}
+
+section h4 {
+    color: crimson;
+}
+
+h4 + div {
+    color: red;
+}
+*/
+
+section>ul>li:first-child>ol>li:first-child {
+    color: red;
+
+}
+
+section>ul>li:first-child>ol>li:nth-child(2) {
+    color: orange;
+
+}
+
+section>ul>li:first-child>ol>li:nth-child(2) ~ li{
+    color: blueviolet;
+
+}
+
+section>ul>li:nth-child(2)>ol>li:first-child>ol>li:nth-child(3)>ul>li:nth-child(2) {
+    color: blue;
+
+}
+
+section>ul>li:nth-child(2)>ol>li:first-child>ol>li:nth-child(5){
+    color: green;
+
+}

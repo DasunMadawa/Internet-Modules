@@ -1,0 +1,14 @@
+/*div {
+    width: 100px;
+    height: 100px;
+    background-color: #0000fa;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}*/
+
+.div {
+    width: 100px;
+    height: 100px;
+    background-image: URL(../../../assets/favicon.ico);
+    background-size: cover;
+    background-position: center;
+}

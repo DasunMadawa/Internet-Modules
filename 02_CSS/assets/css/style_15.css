@@ -1,0 +1,31 @@
+section {
+    width: 1000px;
+    height: 500px;
+    border: 5px solid black;
+    display: flex;
+
+    /*justify-content: space-between;*/
+
+}
+
+section > div {
+    width: 100px;
+    height: 100px;
+
+}
+
+section > div:first-child {
+    align-self: self-start;
+    background-color: red;
+
+}
+section > div:nth-child(2) {
+    align-self: center;
+    background-color: green;
+
+}
+section > div:nth-child(3) {
+    align-self: self-end;
+    background-color: blue;
+
+}
