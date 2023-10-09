@@ -6,16 +6,16 @@ section > div:first-child {
 
 }
 
-/*@media all and (max-width: 700px){*/
-/*    h1 {*/
-/*        background-color: red;*/
-/*    }*/
+@media all and (max-width: 700px){
+    h1 {
+        background-color: red;
+    }
 
-/*}*/
+}
 
-/*@media all and (min-width: 700px){*/
-/*    h1 {*/
-/*        background-color: green;*/
-/*    }*/
+@media all and (min-width: 700px){
+    h1 {
+        background-color: green;
+    }
 
-/*}*/
+}

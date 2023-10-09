@@ -80,10 +80,7 @@ const clear = () => {
     $("#reset-btn").click();
 }
 
-// let index = student_db.find( item => item.index == index);
-//
-// student_db.remove(index);
-// loadStudents();
+
 
 
 
